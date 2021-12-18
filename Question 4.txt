@@ -1,0 +1,59 @@
+1.Fix the code to get the largest of three.
+
+aa = (f,s,t) => {
+ if(f>s &&f>t){
+ console.log(f)}
+ else if(s>f && s>t){
+ console.log(s)}
+ else{
+ console.log(t)}
+};
+aa(1,2,3);
+
+2.Fix the code to Sum of the digits present in the number
+
+let n = 123;
+let arr = n.toString().split('');
+function add(n)
+{
+let sum = 0;
+for(var i=0;i<arr.length;i++){
+ sum+=parseInt(arr[i]);
+ }
+ return sum;
+}
+
+console.log(add(arr));
+
+
+
+3.Fix the code to gen Title caps.
+
+var arr = ["guvi", "geek", "zen", "fullstack"];
+var ano = function(arro) {
+ for (var i = 0; i <= arro.length; i++) {
+ console.log(arro[i].charAt(0).toUpperCase() + arro[i].substr(1));
+ }
+};
+ano(arr);
+
+
+
+4.Fix the code to sum the number in that array
+
+const num = [10, 20, 30, 40,50,60,70,80,90,100];
+let sum = ((a, b) =>a + b);
+ sum = num.reduce(sum);
+console.log(sum);
+
+
+
+5.Fix the code to reverse.
+
+(function(str){
+ str1 = str.split("").reverse().join("");
+ console.log(str1); 
+})("abcd");
+
+
+

@@ -1,0 +1,196 @@
+                                      Task 1: Simple Programs todo for variables
+
+
+
+1.Declare four variables without assigning values and print them in console.
+Ans:
+Var  a;
+Var  b;
+Var  c;
+Console.log(a);
+Console.log(b);
+Console.log(c);
+
+
+2.How to get value of the variable myvar as output
+  Ans:
+   var myvar= 1;
+   console.log(myvar);
+
+
+3.Declare variables to store your first name, last name, marital status, country and age in multiple lines
+Ans:
+
+Var firstName= 'Kamalesh';
+Var lastName= 'kanna';
+Var maritalStatus='Single';
+Var country='India';
+Var Age='21';
+
+
+4.Declare variables to store your first name, last name, marital status, country and age in a single line
+Ans:
+let details =["Kamalesh", "Kanna", "single", "India" ,"21"];
+
+
+
+5.Convert the string to integer
+Ans:
+let a="54";
+
+let b=parseInt(a);
+
+let c=Number(a);
+
+let c=+a;
+
+
+                                     Task 2: Simple Programs todo for Operators
+
+
+1) Square of a number
+Ans:
+let a =2;
+
+console.log(a*a);
+
+2) Swapping 2 numbers
+Ans:
+let a=24;
+
+let b=23;
+
+let c=a;
+
+a=b;
+
+b=c;
+
+console.log(a,b);
+
+3) Addition of 3 numbers
+Ans:
+let a=1;
+
+let b=2;
+
+let c=3;
+
+console.log(a+b+c);
+
+4)  Celsius to Fahrenheit conversion
+Ans:
+let a= 12;
+
+b=(a*9/5)+32;
+
+console.log(b);
+
+5) Meter to miles
+Ans:
+let a=50000;
+
+let b=a/1609.344;
+
+console.log(b);
+
+
+			    Task 3: Simple Programs todo for Condition , Looping and Arrays
+
+1.Write a loop that makes seven calls to console.log to output the following triangle:
+#
+##
+###
+####
+#####
+######
+#######
+
+Ans:   for(i=1; i<=5; i++){
+    
+             console.log("*".repeat(i))
+          };
+
+
+
+2).Iterate through the string array and print it contents
+
+               var strArray= ["<option>Jazz</option>",
+                              ,"<option>Blues</option>",
+                               ,"<option>New Age</option>",
+                                 ,"<option>Classical</option>",
+                                    ,"<option>Opera</option>"]
+
+                      for(let i = 0; i < strArray.length; i++){
+                              console.log(strArray[i]);
+                      }
+
+Arrays
+                  
+1). write a code to count the elements in the array . Don’t use length property
+
+              var myarray=[11,22,33,44,55]
+ 
+              let length = 0;
+              for (let i of myarray){
+                length++;
+              }
+              console.log(length);
+
+
+2). Declare an empty array;
+
+      let foods = [];
+
+
+ Create an array called foods holds the names of your top 20 favorite foods, starting with the best food.
+
+      let foods = ["adai","sambar","idly","Biryani","dosa","poori","chappathi","fried rice","pulikulambu",
+                   "sothi kulambu","white curry","idiyappam","curd                     rice","rasam","payasam","Mushroom","upma","rice","paneer","gobi"];
+
+
+ Foods variable holds the names of your top 20 favorite foods, starting with the best food. How can you find your fifth favorite food?
+                   
+let fifth = foods[4];
+                  
+console.log(fifth);
+
+Find the length of your foods array
+    
+            let len = 0;
+            for(let a of foods){
+              length++;
+            }
+            console.log(len);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
